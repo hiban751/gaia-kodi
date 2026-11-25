@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.tmp
+*.temp
+*.bak
+*.log
+
+/Gaia/
+/resources/
+/addon.xml
+/default.py
+/plugin.video.gaia.personal.zip

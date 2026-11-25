@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.gaia.personal" name="Gaia" version="1.0.0" provider-name="Hiban751">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Catálogo personal de vídeos desde AllDebrid</summary>
+    <description lang="es">Gaia lee los magnets completados y los enlaces guardados de AllDebrid, los clasifica en películas, series, anime y documentales, y los reproduce directamente en Kodi.</description>
+    <summary lang="en_GB">Personal video catalog from AllDebrid</summary>
+    <description lang="en_GB">Gaia reads completed magnets and saved links from AllDebrid, sorts them into movies, series, anime and documentaries, and plays them directly in Kodi.</description>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="repository.gaia.personal" name="Gaia Personal Repository" version="1.0.0" provider-name="Hiban751">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="Gaia Personal Repository">
+    <dir>
+      <info>https://hiban751.github.io/gaia-kodi/addons.xml</info>
+      <checksum>https://hiban751.github.io/gaia-kodi/addons.xml.md5</checksum>
+      <datadir zip="true">https://hiban751.github.io/gaia-kodi/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Repositorio personal de Gaia para Kodi</summary>
+    <description lang="es">Repositorio con el add-on Gaia y futuras actualizaciones.</description>
+    <summary lang="en_GB">Gaia personal repository for Kodi</summary>
+    <description lang="en_GB">Repository with the Gaia add-on and future updates.</description>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
