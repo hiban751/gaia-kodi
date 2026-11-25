@@ -20,14 +20,14 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="repository.gaia.personal" name="Gaia Personal Repository" version="1.0.0" provider-name="Hiban751">
+<addon id="repository.gaia.personal" name="Gaia Personal Repository" version="1.0.1" provider-name="Hiban751">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
   <extension point="xbmc.addon.repository" name="Gaia Personal Repository">
     <dir>
       <info>https://hiban751.github.io/gaia-kodi/addons.xml</info>
-      <checksum>https://hiban751.github.io/gaia-kodi/addons.xml.md5</checksum>
+      <checksum verify="md5">https://hiban751.github.io/gaia-kodi/addons.xml.md5</checksum>
       <datadir zip="true">https://hiban751.github.io/gaia-kodi/</datadir>
     </dir>
   </extension>
