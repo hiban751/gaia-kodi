@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.gaia.personal" name="Gaia Personal Repository" version="1.0.1" provider-name="Hiban751">
+<addon id="repository.gaia.personal" name="Gaia Personal Repository" version="1.0.2" provider-name="Hiban751">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
   </requires>
